@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: notification-service
-          image: vucongtuanduong/grading-notification:IMAGE_TAG_REPLACEMENT
+          image: DOCKERHUB_USERNAME/notification-service:IMAGE_TAG_REPLACEMENT
           ports:
             - containerPort: 8085
           env:
