@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: notification-service
-          image: DOCKERHUB_USERNAME/notification-service:IMAGE_TAG_REPLACEMENT
+          image: vucongtuanduong/notification-service:v1.0.1
           ports:
             - containerPort: 8085
           env:
