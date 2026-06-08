@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: notification-service
-          image: vucongtuanduong/grading-notification:177760646d779898209fd3678abe64f4ded8e64d
+          image: vucongtuanduong/grading-notification:IMAGE_TAG_REPLACEMENT
           ports:
             - containerPort: 8085
           env:
