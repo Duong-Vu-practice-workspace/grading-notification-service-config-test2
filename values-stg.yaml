@@ -1,4 +1,5 @@
 name: notification-service
+hostname: notification
 
 replicaCount: 1
 
